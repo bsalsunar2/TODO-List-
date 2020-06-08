@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../b.jpg);
+  max-height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.container {
+  box-shadow: 10px 10px 30px 4px grey;
+  width: 75%;
+  margin: auto;
+  height: 400px;
+}
+header {
+  margin-top: 10px;
+}
+form {
+  margin-top: 10px;
+}
+form input {
+  background: none;
+}
+
+.todo,
+form,
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 15px;
+}
+
+form button,
+.todo button {
+  cursor: pointer;
+}
+.fa-trash-alt,
+.fa-check-square,
+.fa-plus-square {
+  pointer-events: none;
+}
+.complete {
+  text-decoration: line-through;
+  color: rgb(190, 7, 7);
+}
+/* changes */
+.todo li {
+  border: 1px solid rgb(143, 141, 141);
+}
+select,
+form button,
+form input,
+.todo button {
+  text-align: centre;
+  border: none;
+  border: 1px solid rgb(37, 35, 35);
+}
+form input {
+  font-size: large;
+}
+header {
+  font-family: cursive;
+  padding: 10px;
+}
+input {
+  padding: 5px;
+  width: 30%;
+}
+form button {
+  padding: 8px;
+  background: rgb(191, 187, 240);
+}
+form button:hover {
+  background: rgb(220, 241, 205);
+}
+select {
+  padding: 3px;
+  margin-left: 10px;
+}
+ul {
+  margin-top: 10px;
+}
+li {
+  width: 20%;
+  list-style: none;
+  padding: 3px;
+  font-size: large;
+}
+.fa-check-alt {
+  background: white;
+}
+.todo .complete-btn {
+  padding: 7px;
+  background-color: greenyellow;
+  border: none;
+}
+.todo .delete-btn {
+  padding: 7px;
+  background-color: lightsalmon;
+  border: none;
+}
+.todo {
+  padding: 3px;
+}
+select {
+  background: none;
+}
+.footer {
+  margin-top: 200px;
+  text-align: center;
+  font-family: cursive;
+  font-style: italic;
+}

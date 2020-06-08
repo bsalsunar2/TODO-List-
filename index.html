@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>My Todo</h1>
+        <div class="todo-date"></div>
+      </header>
+      <form>
+        <input type="text" class="todo-input" placeholder="Add a todo" />
+        <button class="todo-add">
+          <i class="fas fa-plus-square"></i>
+        </button>
+        <div class="select">
+          <select name="filter" class="todo-filter">
+            <option value="all">ALL</option>
+            <option value="completed">COMPLETED</option>
+            <option value="uncompleted">UNCOMPLETED</option>
+          </select>
+        </div>
+      </form>
+
+      <todo-div>
+        <ul class="todo-list"></ul>
+      </todo-div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/0097430efa.js"
+      crossorigin="anonymous"
+    ></script>
+    <div class="footer">@script_bsalsunar</div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
