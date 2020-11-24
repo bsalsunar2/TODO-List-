@@ -1,1 +1,6 @@
---A cool todo list app using js
+Create a cool Todo list app using js/css/html.
+You can add ,delete or complete the todo-items using buttons.
+The app as well has categories. Three options are provided. According to options individual can see all or the completed or the uncompleted todo-items at a particular time.
+The app contains the local storage feature which enables the data to store locally and enables to retrieve the data after refresh as well.
+  
+
